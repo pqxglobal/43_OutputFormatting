@@ -223,7 +223,7 @@ int main(){
     std::cout << std::endl;
 
 
-    //uppercase and nouppercase
+    // uppercase and nouppercase
 
     pos_int = 717171;
     
@@ -231,18 +231,16 @@ int main(){
     std::cout << "pos_int (dec) : " << std::dec << pos_int << std::endl;
     std::cout << "pos_int (hex) : " << std::hex << pos_int << std::endl;
     std::cout << "pos_int (oct) : " << std::oct << pos_int << std::endl;
-    
+
     std::cout << std::endl;
     std::cout << "pos_int (uppercase) : " << std::endl;
-    std::cout << std::uppercase;
+    std::cout << std::uppercase; 
     std::cout << "pos_int (dec) : " << std::dec << pos_int << std::endl;
     std::cout << "pos_int (hex) : " << std::hex << pos_int << std::endl;
     std::cout << "pos_int (oct) : " << std::oct << pos_int << std::endl;
     
-    
     //===================================================================
-    std::cout << std::endl;
-
+    std::cout << std::dec << std::endl;
 
     //fixed and scientific : for floating point values
     
